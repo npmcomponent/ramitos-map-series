@@ -1,5 +1,5 @@
-var series = require('array-series'),
-    map = require('map')
+var series = require('component-array-series'),
+    map = require('ianstormtaylor-map')
 
 module.exports = function (array, iterator, callback) {
   var results = [];
